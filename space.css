@@ -1,0 +1,37 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1600');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+}
+#board{
+    background-color: black;
+    margin-top: 60px;
+}
+h1{
+    color: white;
+}
+h2{
+    text-align: center;
+color: greenyellow;
+    scroll-behavior: smooth;
+    
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    margin: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
